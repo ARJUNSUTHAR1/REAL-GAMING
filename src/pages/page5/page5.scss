@@ -1,0 +1,172 @@
+.page5{
+    width: 100%;
+    height: 70%;
+    margin-top: 60px;
+}
+.boxes{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .left-box{
+        padding: 25px 30px 15px 30px;
+        z-index: -1;
+        position: relative;
+        width: 44%;
+        height: 100%;
+        background: rgba(51, 47, 47, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(13.6px);
+        -webkit-backdrop-filter: blur(13.6px);
+        border: 1px solid rgb(84, 80, 80);
+        .para5 {
+            font-family: "Lato", sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            width: 100%;
+            letter-spacing: 1px;
+            font-weight: 400;
+            padding: 10px 0;
+          }
+          .line{
+            width: 100%;
+            height: 2px;
+            background-image: linear-gradient(30deg, white 90px, #2f1f70 );
+          }
+          .user-5{
+            display: flex;
+            margin: 20px 0;
+            justify-content: space-between;
+            align-items: center;
+            font-family: lato;
+            color: #fff;
+            // justify-content: center;
+            align-items: center;
+            .profile{
+                display: flex;
+
+            }
+            .profile-image-5{
+              width: 40px;height: 40px;
+            }
+            .detail-5{
+              
+              margin-left: 10px;
+              h5{
+              padding-bottom: 5px;
+              // margin-bottom: 5px;
+              font-size: 15px;
+              font-weight: 500;
+               letter-spacing: 1px;}
+              .cmpny-5{
+                font-size: 10px;
+                font-weight: 300;
+              }
+            }
+            
+          }
+          .verified{
+            display: flex;
+            justify-content: center;
+            .tick{
+                img{
+                    width: 20px;
+                }
+            }
+          }
+        .flags{
+            height: max-content;
+            width: max-content;
+            z-index: 100000;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -45px;
+            right: 45px;
+
+            .left-flag{
+                height: 70px;
+                width: 30px;
+                background-image: linear-gradient(30deg, #d578fe , #cc07ac 40px);;
+                clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%, 0% 38%);
+            }
+            .right-flag{
+                height: 70px;
+                width: 30px;
+                background-image: linear-gradient(30deg, #3513bc, #d578fe,);;
+                clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%, 0% 38%);
+            }
+        }
+        .five-stars{
+            color: white;
+            display: flex;
+            gap: 5px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .right-box{
+        width: 44%;
+        height: 100%;
+        background: rgba(51, 47, 47, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(13.6px);
+        -webkit-backdrop-filter: blur(13.6px);
+        border: 1px solid rgb(84, 80, 80);
+        .flags{
+            height: max-content;
+            width: max-content;
+            z-index: 100000;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -45px;
+            right: 45px;
+
+            .left-flag{
+                height: 70px;
+                width: 30px;
+                background-image: linear-gradient(30deg, #d578fe , #cc07ac 40px);
+                clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%, 0% 38%);
+            }
+            .right-flag{
+                height: 70px;
+                width: 30px;
+                background-image: linear-gradient(30deg, #3513bc, #d578fe,);;
+                clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%, 0% 38%);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width :630px){
+    .boxes .left-box .user-5{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+}

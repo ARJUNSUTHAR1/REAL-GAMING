@@ -1,0 +1,174 @@
+.page3 {
+    padding-top: 50px;
+    mix-blend-mode: color-dodge;
+    width: 100%;
+    height: max-content;
+    display: grid;
+    place-items: center;
+  
+    .blur-back {
+      padding: 10px 0;
+      width: 90%;
+      height: max-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.26);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(6.4px);
+      -webkit-backdrop-filter: blur(6.4px);
+      border: 2px solid rgba(255, 255, 255, 1);
+  
+      .left {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        img{
+          position: absolute;
+          width: 110%;
+          height: 140%;
+          top: 0%;
+        }
+      }
+      .right {
+        padding: 30px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        width: 50%;
+        height: 100%;
+        h2 {
+          font-weight: 900;
+          text-transform: uppercase;
+          color: aliceblue;
+          font-family: "Inter", sans-serif;
+          letter-spacing: 3px;
+          font-size: 4vw;
+         
+          .explore {
+            background-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+            background-clip: text;
+            color: transparent;
+          }
+        }
+        .para1 {
+          font-family: "Lato", sans-serif;
+          font-size: 12px;
+          line-height: 20px;
+          color: #fff;
+          width: 100%;
+          letter-spacing: 1px;
+          font-weight: 400;
+        
+        }
+        .btn-stroke-3 {
+          transform: skewX(-20deg);
+          border: 2px solid transparent;
+          background-color: transparent;
+          border-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+          border-image-slice: 1;
+          width: 170px;
+          height: 60px;
+    
+          text-transform: uppercase;
+          color: #fff;
+        }
+        .btn-name-gradient-3 {
+          letter-spacing: 1px;
+          // background-color: transparent;
+          display: grid;
+          place-items: center;
+          width: 100%;
+          height: 100%;
+          font-family: "Lato", sans-serif;
+          background-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+          background-clip: text;
+          font-size: 15px;
+          font-weight: 900;
+          transform: skewx(20deg);
+          color: transparent;
+          // z-index: 10000;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width : 1500px) {
+     
+    .page3 .blur-back .left img{
+      width: 130%;
+      height: 120%;
+      top: -18%;
+      left: 0%;
+    }
+    .page3 .blur-back .right{
+      line-height: 4vw;
+      padding: 0;
+      padding-left: 70px;
+      padding-right: 10px;
+      gap: 1vw;
+    }
+    .page3 .blur-back .right .btn-stroke-3{
+      width: 26vw;
+    }
+    }
+
+ 
+ 
+    @media  screen and (min-height : 500px) {
+      .page3{
+        height: 100vh;
+      }
+      .page3 .blur-back{
+        height: 80vh;
+
+      }
+    }
+    @media  (min-height : 600px) {
+      .page3{
+        height: 80vh;
+      }
+      .page3 .blur-back{
+        height: 70vh;
+
+      }
+    }
+    @media  (min-height : 700px) {
+      .page3{
+        height: 70vh;
+      }
+      .page3 .blur-back{
+        height: 60vh;
+
+      }
+    }
+    @media  (min-height : 900px) {
+      .page3{
+        height: 50vh;
+      }
+      .page3 .blur-back{
+        height: 45vh;
+
+      }
+    }
+    @media  (min-height : 1100px) {
+      .page3{
+        height: 50vh;
+      }
+      .page3 .blur-back{
+        height: 40vh;
+
+      }
+    }
+    @media  (min-height : 1300px) {
+      .page3{
+        height: 50vh;
+      }
+      .page3 .blur-back{
+        height: 35vh;
+
+      }
+    }

@@ -1,0 +1,176 @@
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background: url("../../assets/footer.png");
+    background-repeat: no-repeat;
+    mix-blend-mode: color-dodge;
+    background-size: 100%;
+    .footer-section-1{
+        font-family: "Lato", sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        color: #fff;
+
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 60px;
+
+    .footer-logo-para{
+        width: 20%;
+    .footer-logo {
+        color: #fff;
+        display: flex;
+        align-items: end;
+        gap: 10px;
+        font-size: 3vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family: 'Inter', sans-serif;
+         img{
+          width: 40px;
+         }
+      }
+      .para-footer {
+        font-family: "Lato", sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+        width: 100%;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        
+      }
+
+      
+    }
+       .footer-tags{display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 70px;
+    
+    }
+    .company-footer{
+        h4{
+            font-size: 2vw;
+
+            text-transform: uppercase;
+        }
+        h6{
+            font-size: 1.5vw;
+            margin: 2vw 0;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+
+    }
+    .help{
+        h4{
+            font-size: 2vw;
+
+            text-transform: uppercase;
+        }
+        h6{
+            font-size: 1.5vw;
+            margin: 2vw 0;
+            font-weight: 300;
+
+            text-transform: capitalize;
+        }
+    }
+    .resourses{
+        h4{
+            font-size: 2vw;
+
+            text-transform: uppercase;
+        }
+        h6{
+            font-size: 1.5vw;
+            margin: 2vw 0;
+            font-weight: 300;
+
+            text-transform: capitalize;
+        }
+    
+}
+    
+ .companies{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 10px;
+    // margin-top: 30px;
+ }
+ .social-accounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+ }
+
+}
+      
+}
+
+@media screen and (max-width : 1150px) {
+    
+    .footer .footer-section-1{
+        gap: 5px;
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .footer .footer-section-1 .companies{
+        gap: 10px;
+    }
+    .footer .footer-section-1 .footer-logo-para .para-footer{
+        margin-top: 5px;
+        line-height: 10px;
+        font-size: 1vw;
+    }
+
+}
+@media screen and (max-width : 750px) {
+    .footer{
+        background-size: cover
+    }
+    .footer .footer-section-1{
+        gap: 5px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .footer .footer-section-1 .company-footer h4{
+            font-size: 2.5vw;
+    }
+    .footer .footer-section-1 .company-footer h6{
+        font-size: 2vw;
+}
+.footer .footer-section-1 .help h4{
+    font-size: 2.5vw;
+}
+.footer .footer-section-1 .help h6{
+    font-size: 2vw;
+}
+.footer .footer-section-1 .resourses h4{
+    font-size: 2.5vw;
+}
+.footer .footer-section-1 .resourses h6{
+    font-size: 2vw;
+}
+footer .footer-section-1 .footer-logo-para .footer-logo {
+    font-size: 4vw;
+
+}
+.footer .footer-section-1 .footer-tags{
+    margin-left: 40px;
+}
+   
+
+}
