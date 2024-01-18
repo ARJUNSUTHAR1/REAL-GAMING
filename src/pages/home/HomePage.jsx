@@ -34,6 +34,8 @@ const HomePage = () => {
       </div>
       <div className="right-section">
         <img className = "home-image"src={homeimage} alt="" />
+      <div className="height"></div>
+
       </div>
      
       <div className="logos">

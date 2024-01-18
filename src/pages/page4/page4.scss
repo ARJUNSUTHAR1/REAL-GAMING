@@ -1,81 +1,81 @@
-.page4{
-    mix-blend-mode: color-dodge;
-    margin-top: 25px;
-    width: 100%;
-    height: max-content;
-    h2 {
-        margin-bottom: 20px;
-        font-weight: 900;
-        text-transform: uppercase;
-        color: aliceblue;
-        font-family: "Inter", sans-serif;
-        letter-spacing: 3px;
-        font-size: 3vw;
-        text-align: center;
-        .explore {
-          background-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
-          background-clip: text;
-          color: transparent;
-        }
-      }
+.page4 {
+  mix-blend-mode: color-dodge;
+  margin-top: 25px;
+  width: 100%;
+  height: max-content;
+  h2 {
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 3px;
+    font-size: 3vw;
+    text-align: center;
+    .explore {
+      background-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+      background-clip: text;
+      color: transparent;
+    }
+  }
 
-      .btns-4 {
-        width: 98%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: center;
-        justify-content: center;
-        .btn-gradient-4 {
-          width: 170px;
-          height: 60px;
-          background: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
-          // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-          transform: skewX(-20deg);
-          outline: none;
-          border: none;
-          text-transform: uppercase;
-          color: #fff;
-        }
-        .btn-stroke-4 {
-          transform: skewX(-20deg);
-          border: 2px solid transparent;
-          background-color: transparent;
-          border-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
-          border-image-slice: 1;
-          width: 170px;
-          height: 60px;
-      
-          text-transform: uppercase;
-          color: #fff;
-        }
-      }
-      .btn-name-4 {
-        font-family: "Lato", sans-serif;
-        font-size: 15px;
-        font-weight: 900;
-        transform: skewx(20deg);
-        letter-spacing: 1px;
-      }
-      .btn-name-gradient-4 {
-        letter-spacing: 1px;
-        // background-color: transparent;
-        display: grid;
-        place-items: center;
-        width: 100%;
-        height: 100%;
-        font-family: "Lato", sans-serif;
-        // background-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
-        // background-clip: text;
-        font-size: 15px;
-        font-weight: 900;
-        transform: skewx(20deg);
-        color: #fff;
-        z-index: 10000;
-      }
+  .btns-4 {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    .btn-gradient-4 {
+      width: 170px;
+      height: 60px;
+      background: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+      // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      transform: skewX(-20deg);
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .btn-stroke-4 {
+      transform: skewX(-20deg);
+      border: 2px solid transparent;
+      background-color: transparent;
+      border-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+      border-image-slice: 1;
+      width: 170px;
+      height: 60px;
+
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+  .btn-name-4 {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    transform: skewx(20deg);
+    letter-spacing: 1px;
+  }
+  .btn-name-gradient-4 {
+    letter-spacing: 1px;
+    // background-color: transparent;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    // background-image: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+    // background-clip: text;
+    font-size: 15px;
+    font-weight: 900;
+    transform: skewx(20deg);
+    color: #fff;
+    z-index: 10000;
+  }
 }
 
-.cards{
+.cards {
   width: 100%;
   height: max-content;
   display: grid;
@@ -84,4 +84,13 @@
   row-gap: 30px;
   column-gap: 25px;
   margin: 50px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    grid-template-columns: 45% 45%;
+  }
+  .page4 h2 {
+    font-size: 8vw;
+  }
 }
