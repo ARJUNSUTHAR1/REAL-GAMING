@@ -1,3 +1,4 @@
+
 import star1 from "../../assets/Group.png";
 import logo from "../../assets/logo.png";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -5,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import "./page2.scss";
+
 
 import { EffectCoverflow, Autoplay, Pagination } from "swiper/modules";
 
