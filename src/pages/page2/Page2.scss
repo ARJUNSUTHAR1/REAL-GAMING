@@ -35,8 +35,23 @@
       top: 2%;
       left: 50%;
       transform: translate(-50%,-50%);
-      border-radius:5px ;
+      border-radius:5px;
+      
     }
+    .slider-bottom{
+      width: 60%;
+      height: 40px;
+      background: linear-gradient(30deg, #3d2a87, #d578fe, #cc07ac);
+      clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+      color: white;
+      position: absolute;
+      bottom: 10%;
+      text-align: center;
+      font-family: lato;
+      text-transform: uppercase;
+      padding-top : 10px;
+      font-weight: 900;
+       }
     .photos {
     
       background-position: center;

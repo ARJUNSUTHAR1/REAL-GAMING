@@ -44,38 +44,48 @@ const Page2 = () => {
             <div className="swiper-back">
             <img src={star1} alt="pic1" className="photos" />
             <img className="logo-slider" src={logo} alt="" />
-
+             <div className="slider-bottom">sneak peak </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
           <div className="swiper-back">
             <img src={star1} alt="pic1" className="photos" />
             <img className="logo-slider" src={logo} alt="" />
+            <div className="slider-bottom">sneak peak </div>
 
+            
             </div>          </SwiperSlide>
           <SwiperSlide>
           <div className="swiper-back">
             <img src={star1} alt="pic1" className="photos" />
             <img className="logo-slider" src={logo} alt="" />
+            <div className="slider-bottom">sneak peak </div>
 
+              
             </div>          </SwiperSlide>
           <SwiperSlide>
           <div className="swiper-back">
             <img src={star1} alt="pic1" className="photos" />
             <img className="logo-slider" src={logo} alt="" />
+            <div className="slider-bottom">sneak peak </div>
 
+              
             </div>          </SwiperSlide>
           <SwiperSlide>
           <div className="swiper-back">
             <img src={star1} alt="pic1" className="photos" />
             <img className="logo-slider" src={logo} alt="" />
+            <div className="slider-bottom">sneak peak </div>
 
+             
             </div>          </SwiperSlide>
           <SwiperSlide>
           <div className="swiper-back">
             <img src={star1} alt="pic1" className="photos" />
             <img className="logo-slider" src={logo} alt="" />
+            <div className="slider-bottom">sneak peak </div>
 
+             
             </div>          </SwiperSlide>
         </Swiper>
         <div className="btns-2">

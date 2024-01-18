@@ -151,19 +151,14 @@
   width: 120%;
   height: 55px;
   background: rgba(98, 80, 80, 0.71);
-  // border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  // -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgb(255, 255, 255);
   transform: rotate(-1deg) translateX(-20px);
-  // background: transparent;
   white-space: nowrap;
-  // position: relative;
   display: flex;
   position: absolute;
   bottom: 8%;
-  /* margin-top: 1rem; */
 }
 
 .logos-slide {
@@ -178,11 +173,6 @@
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   color: #fff;
-  // font-family: future;
-  // color: transparent;
-  // -webkit-text-stroke: #fff;
-  // -webkit-text-stroke-width: 2px;
-  // mix-blend-mode: normal important;
   font-size: 2.2vmax;
   text-transform: uppercase;
 }
