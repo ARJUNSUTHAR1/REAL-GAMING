@@ -1,7 +1,5 @@
 import './HomePage.scss'
 import { useEffect } from "react";
-import homeimage from "../../assets/smallmainimage.png"
-import Marquee from "../../components/marquee/Marquee";
 const HomePage = () => {
   useEffect(()=>{
     var copy = document.querySelector(".logos-slide").cloneNode(true);
@@ -33,7 +31,7 @@ const HomePage = () => {
       </div>
       </div>
       <div className="right-section">
-        <img className = "home-image"src={homeimage} alt="" />
+        <img className = "home-image"src="https://res.cloudinary.com/dxjm0u3vj/image/upload/v1705590615/try5wu8ogeq4fjtqmkqv.png" alt="" />
       <div className="height"></div>
 
       </div>

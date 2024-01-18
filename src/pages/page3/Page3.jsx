@@ -7,7 +7,7 @@ const Page3 = () => {
       <div className="page3">
         <div className="blur-back">
           <div className="left">
-            <img src={vr} alt="" />
+            <img src="https://res.cloudinary.com/dxjm0u3vj/image/upload/v1705591064/image_23__1_-transformed_1_1image_p4thp6.png" alt="" />
           </div>
           <div className="right">
             <h2>
