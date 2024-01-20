@@ -1,5 +1,5 @@
 import Card from "../../components/card/Card";
-import Data from "../../data/data"
+import Data from "../../data/Data"
 import "./page4.scss";
 
 const Page4 = () => {

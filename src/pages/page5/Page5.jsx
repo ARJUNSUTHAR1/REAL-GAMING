@@ -1,5 +1,5 @@
 import "./page5.scss";
-import Data from "../../data/data";
+import Data from "../../data/Data";
 import verified from "../../assets/verified.png";
 import { FaStar } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
