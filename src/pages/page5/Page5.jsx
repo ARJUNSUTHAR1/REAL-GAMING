@@ -1,4 +1,3 @@
-import "./page5.scss";
 import Data from "../../data/Data";
 import verified from "../../assets/verified.png";
 import { FaStar } from "react-icons/fa6";
@@ -7,6 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
+import "./page5.scss";
+
 
 import { EffectCoverflow, Autoplay, Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
