@@ -1,9 +1,8 @@
-import Data from "../../data/data";
 import "./page5.scss";
+import Data from "../../data/data";
 import verified from "../../assets/verified.png";
 import { FaStar } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -32,8 +31,8 @@ const Page5 = () => {
         spaceBetween={20}
         centeredSlides={false}
         autoplay={{
-          delay: 2500,
-          disableOnInteraction: true,
+          delay: 1500,
+          disableOnInteraction: false,
         }}
         loop={true}
         effect={"coverflow"}

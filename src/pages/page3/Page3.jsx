@@ -1,4 +1,3 @@
-import vr from "../../assets/vr.png";
 import "./page3.scss";
 
 const Page3 = () => {
