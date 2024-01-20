@@ -1,4 +1,4 @@
-import "../page2/Page2.scss";
+import "./page2.scss";
 import star1 from "../../assets/Group.png";
 import logo from "../../assets/logo.png";
 import { Swiper, SwiperSlide } from "swiper/react";
